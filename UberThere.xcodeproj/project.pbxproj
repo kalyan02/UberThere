@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		916933171CECD81900346FFA /* UberThereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933161CECD81900346FFA /* UberThereTests.m */; };
+		916933221CECD81900346FFA /* UberThereUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933211CECD81900346FFA /* UberThereUITests.m */; };
+		9169334B1CECD85A00346FFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933311CECD85A00346FFA /* AppDelegate.m */; };
+		9169334C1CECD85A00346FFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916933321CECD85A00346FFA /* LaunchScreen.xib */; };
+		9169334D1CECD85A00346FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 916933341CECD85A00346FFA /* Main.storyboard */; };
+		9169334E1CECD85A00346FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 916933361CECD85A00346FFA /* Images.xcassets */; };
+		9169334F1CECD85A00346FFA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 916933371CECD85A00346FFA /* Info.plist */; };
+		916933501CECD85A00346FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933381CECD85A00346FFA /* main.m */; };
+		916933511CECD85A00346FFA /* UHDestinationLocationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9169333A1CECD85A00346FFA /* UHDestinationLocationLabel.m */; };
+		916933521CECD85A00346FFA /* UHLocationLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9169333C1CECD85A00346FFA /* UHLocationLabel.m */; };
+		916933531CECD85A00346FFA /* UHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9169333E1CECD85A00346FFA /* UHLocationManager.m */; };
+		916933541CECD85A00346FFA /* UHLocationPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933401CECD85A00346FFA /* UHLocationPin.m */; };
+		916933551CECD85A00346FFA /* UHPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933421CECD85A00346FFA /* UHPinView.m */; };
+		916933561CECD85A00346FFA /* UHSearchDestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933441CECD85A00346FFA /* UHSearchDestinationViewController.m */; };
+		916933571CECD85A00346FFA /* UHSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933461CECD85A00346FFA /* UHSimpleViewController.m */; };
+		916933581CECD85A00346FFA /* UHUberHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 916933481CECD85A00346FFA /* UHUberHelper.m */; };
+		916933591CECD85A00346FFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9169334A1CECD85A00346FFA /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		916933131CECD81900346FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 916932F11CECD81800346FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916932F81CECD81800346FFA;
+			remoteInfo = UberThere;
+		};
+		9169331E1CECD81900346FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 916932F11CECD81800346FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916932F81CECD81800346FFA;
+			remoteInfo = UberThere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		916932F91CECD81800346FFA /* UberThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		916933121CECD81900346FFA /* UberThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		916933161CECD81900346FFA /* UberThereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberThereTests.m; sourceTree = "<group>"; };
+		916933181CECD81900346FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9169331D1CECD81900346FFA /* UberThereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberThereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		916933211CECD81900346FFA /* UberThereUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberThereUITests.m; sourceTree = "<group>"; };
+		916933231CECD81900346FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916933301CECD85A00346FFA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		916933311CECD85A00346FFA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		916933331CECD85A00346FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		916933351CECD85A00346FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		916933361CECD85A00346FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		916933371CECD85A00346FFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916933381CECD85A00346FFA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		916933391CECD85A00346FFA /* UHDestinationLocationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHDestinationLocationLabel.h; sourceTree = "<group>"; };
+		9169333A1CECD85A00346FFA /* UHDestinationLocationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHDestinationLocationLabel.m; sourceTree = "<group>"; };
+		9169333B1CECD85A00346FFA /* UHLocationLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHLocationLabel.h; sourceTree = "<group>"; };
+		9169333C1CECD85A00346FFA /* UHLocationLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHLocationLabel.m; sourceTree = "<group>"; };
+		9169333D1CECD85A00346FFA /* UHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHLocationManager.h; sourceTree = "<group>"; };
+		9169333E1CECD85A00346FFA /* UHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHLocationManager.m; sourceTree = "<group>"; };
+		9169333F1CECD85A00346FFA /* UHLocationPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHLocationPin.h; sourceTree = "<group>"; };
+		916933401CECD85A00346FFA /* UHLocationPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHLocationPin.m; sourceTree = "<group>"; };
+		916933411CECD85A00346FFA /* UHPinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHPinView.h; sourceTree = "<group>"; };
+		916933421CECD85A00346FFA /* UHPinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHPinView.m; sourceTree = "<group>"; };
+		916933431CECD85A00346FFA /* UHSearchDestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHSearchDestinationViewController.h; sourceTree = "<group>"; };
+		916933441CECD85A00346FFA /* UHSearchDestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHSearchDestinationViewController.m; sourceTree = "<group>"; };
+		916933451CECD85A00346FFA /* UHSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHSimpleViewController.h; sourceTree = "<group>"; };
+		916933461CECD85A00346FFA /* UHSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHSimpleViewController.m; sourceTree = "<group>"; };
+		916933471CECD85A00346FFA /* UHUberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UHUberHelper.h; sourceTree = "<group>"; };
+		916933481CECD85A00346FFA /* UHUberHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UHUberHelper.m; sourceTree = "<group>"; };
+		916933491CECD85A00346FFA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9169334A1CECD85A00346FFA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		916932F61CECD81800346FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9169330F1CECD81900346FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9169331A1CECD81900346FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		916932F01CECD81800346FFA = {
+			isa = PBXGroup;
+			children = (
+				916933151CECD81900346FFA /* UberThereTests */,
+				916933201CECD81900346FFA /* UberThereUITests */,
+				916932FA1CECD81800346FFA /* Products */,
+				9169332F1CECD85A00346FFA /* UberThere */,
+			);
+			sourceTree = "<group>";
+		};
+		916932FA1CECD81800346FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				916932F91CECD81800346FFA /* UberThere.app */,
+				916933121CECD81900346FFA /* UberThereTests.xctest */,
+				9169331D1CECD81900346FFA /* UberThereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		916933151CECD81900346FFA /* UberThereTests */ = {
+			isa = PBXGroup;
+			children = (
+				916933161CECD81900346FFA /* UberThereTests.m */,
+				916933181CECD81900346FFA /* Info.plist */,
+			);
+			path = UberThereTests;
+			sourceTree = "<group>";
+		};
+		916933201CECD81900346FFA /* UberThereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				916933211CECD81900346FFA /* UberThereUITests.m */,
+				916933231CECD81900346FFA /* Info.plist */,
+			);
+			path = UberThereUITests;
+			sourceTree = "<group>";
+		};
+		9169332F1CECD85A00346FFA /* UberThere */ = {
+			isa = PBXGroup;
+			children = (
+				916933301CECD85A00346FFA /* AppDelegate.h */,
+				916933311CECD85A00346FFA /* AppDelegate.m */,
+				916933321CECD85A00346FFA /* LaunchScreen.xib */,
+				916933341CECD85A00346FFA /* Main.storyboard */,
+				916933361CECD85A00346FFA /* Images.xcassets */,
+				916933371CECD85A00346FFA /* Info.plist */,
+				916933381CECD85A00346FFA /* main.m */,
+				916933391CECD85A00346FFA /* UHDestinationLocationLabel.h */,
+				9169333A1CECD85A00346FFA /* UHDestinationLocationLabel.m */,
+				9169333B1CECD85A00346FFA /* UHLocationLabel.h */,
+				9169333C1CECD85A00346FFA /* UHLocationLabel.m */,
+				9169333D1CECD85A00346FFA /* UHLocationManager.h */,
+				9169333E1CECD85A00346FFA /* UHLocationManager.m */,
+				9169333F1CECD85A00346FFA /* UHLocationPin.h */,
+				916933401CECD85A00346FFA /* UHLocationPin.m */,
+				916933411CECD85A00346FFA /* UHPinView.h */,
+				916933421CECD85A00346FFA /* UHPinView.m */,
+				916933431CECD85A00346FFA /* UHSearchDestinationViewController.h */,
+				916933441CECD85A00346FFA /* UHSearchDestinationViewController.m */,
+				916933451CECD85A00346FFA /* UHSimpleViewController.h */,
+				916933461CECD85A00346FFA /* UHSimpleViewController.m */,
+				916933471CECD85A00346FFA /* UHUberHelper.h */,
+				916933481CECD85A00346FFA /* UHUberHelper.m */,
+				916933491CECD85A00346FFA /* ViewController.h */,
+				9169334A1CECD85A00346FFA /* ViewController.m */,
+			);
+			path = UberThere;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916932F81CECD81800346FFA /* UberThere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916933261CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThere" */;
+			buildPhases = (
+				916932F51CECD81800346FFA /* Sources */,
+				916932F61CECD81800346FFA /* Frameworks */,
+				916932F71CECD81800346FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberThere;
+			productName = UberThere;
+			productReference = 916932F91CECD81800346FFA /* UberThere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		916933111CECD81900346FFA /* UberThereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 916933291CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThereTests" */;
+			buildPhases = (
+				9169330E1CECD81900346FFA /* Sources */,
+				9169330F1CECD81900346FFA /* Frameworks */,
+				916933101CECD81900346FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				916933141CECD81900346FFA /* PBXTargetDependency */,
+			);
+			name = UberThereTests;
+			productName = UberThereTests;
+			productReference = 916933121CECD81900346FFA /* UberThereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9169331C1CECD81900346FFA /* UberThereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9169332C1CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThereUITests" */;
+			buildPhases = (
+				916933191CECD81900346FFA /* Sources */,
+				9169331A1CECD81900346FFA /* Frameworks */,
+				9169331B1CECD81900346FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9169331F1CECD81900346FFA /* PBXTargetDependency */,
+			);
+			name = UberThereUITests;
+			productName = UberThereUITests;
+			productReference = 9169331D1CECD81900346FFA /* UberThereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		916932F11CECD81800346FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KC;
+				TargetAttributes = {
+					916932F81CECD81800346FFA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					916933111CECD81900346FFA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 916932F81CECD81800346FFA;
+					};
+					9169331C1CECD81900346FFA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 916932F81CECD81800346FFA;
+					};
+				};
+			};
+			buildConfigurationList = 916932F41CECD81800346FFA /* Build configuration list for PBXProject "UberThere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 916932F01CECD81800346FFA;
+			productRefGroup = 916932FA1CECD81800346FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				916932F81CECD81800346FFA /* UberThere */,
+				916933111CECD81900346FFA /* UberThereTests */,
+				9169331C1CECD81900346FFA /* UberThereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		916932F71CECD81800346FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9169334F1CECD85A00346FFA /* Info.plist in Resources */,
+				9169334E1CECD85A00346FFA /* Images.xcassets in Resources */,
+				9169334C1CECD85A00346FFA /* LaunchScreen.xib in Resources */,
+				9169334D1CECD85A00346FFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916933101CECD81900346FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9169331B1CECD81900346FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		916932F51CECD81800346FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916933501CECD85A00346FFA /* main.m in Sources */,
+				916933571CECD85A00346FFA /* UHSimpleViewController.m in Sources */,
+				916933581CECD85A00346FFA /* UHUberHelper.m in Sources */,
+				916933541CECD85A00346FFA /* UHLocationPin.m in Sources */,
+				916933561CECD85A00346FFA /* UHSearchDestinationViewController.m in Sources */,
+				916933591CECD85A00346FFA /* ViewController.m in Sources */,
+				916933531CECD85A00346FFA /* UHLocationManager.m in Sources */,
+				916933511CECD85A00346FFA /* UHDestinationLocationLabel.m in Sources */,
+				916933521CECD85A00346FFA /* UHLocationLabel.m in Sources */,
+				916933551CECD85A00346FFA /* UHPinView.m in Sources */,
+				9169334B1CECD85A00346FFA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9169330E1CECD81900346FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916933171CECD81900346FFA /* UberThereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		916933191CECD81900346FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916933221CECD81900346FFA /* UberThereUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		916933141CECD81900346FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 916932F81CECD81800346FFA /* UberThere */;
+			targetProxy = 916933131CECD81900346FFA /* PBXContainerItemProxy */;
+		};
+		9169331F1CECD81900346FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 916932F81CECD81800346FFA /* UberThere */;
+			targetProxy = 9169331E1CECD81900346FFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		916933321CECD85A00346FFA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916933331CECD85A00346FFA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		916933341CECD85A00346FFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				916933351CECD85A00346FFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		916933241CECD81900346FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		916933251CECD81900346FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		916933271CECD81900346FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberThere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lonefish.UberThere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		916933281CECD81900346FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UberThere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lonefish.UberThere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9169332A1CECD81900346FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberThereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lonefish.UberThereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberThere.app/UberThere";
+			};
+			name = Debug;
+		};
+		9169332B1CECD81900346FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UberThereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lonefish.UberThereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UberThere.app/UberThere";
+			};
+			name = Release;
+		};
+		9169332D1CECD81900346FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberThereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lonefish.UberThereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberThere;
+			};
+			name = Debug;
+		};
+		9169332E1CECD81900346FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UberThereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.lonefish.UberThereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UberThere;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		916932F41CECD81800346FFA /* Build configuration list for PBXProject "UberThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916933241CECD81900346FFA /* Debug */,
+				916933251CECD81900346FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		916933261CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916933271CECD81900346FFA /* Debug */,
+				916933281CECD81900346FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		916933291CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9169332A1CECD81900346FFA /* Debug */,
+				9169332B1CECD81900346FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9169332C1CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9169332D1CECD81900346FFA /* Debug */,
+				9169332E1CECD81900346FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 916932F11CECD81800346FFA /* Project object */;
+}
