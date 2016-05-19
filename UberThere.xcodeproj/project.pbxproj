@@ -538,6 +538,7 @@
 				916933281CECD81900346FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		916933291CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThereTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +547,7 @@
 				9169332B1CECD81900346FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9169332C1CECD81900346FFA /* Build configuration list for PBXNativeTarget "UberThereUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +556,7 @@
 				9169332E1CECD81900346FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
